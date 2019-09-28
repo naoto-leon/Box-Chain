@@ -6,7 +6,7 @@
 #### [参考(Peer Play)](https://www.patreon.com/peerplay)  
 #### [使用(keijiro/Lasp)](https://github.com/keijiro/Lasp/blob/master/README.md)  
 
-##### アクセス修飾子  
+#### アクセス修飾子  
 
 public - どこからでも使える  
 private - そのクラスしか使えない  
@@ -14,9 +14,9 @@ protected - 子クラスからはつかえる。継承する時つかう
 virtual - オーバーライドする元の関数につける  
 abstract - 実体はない、インターフェイス的にベースクラスに定義するものっぽい  
 
-##### List_enum  
+#### List_enum  
 
-###### Exam 
+##### (Exam) 
     public class enumtest : MonoBehaviour
       {
           protected enum fru
