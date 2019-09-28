@@ -14,5 +14,38 @@ protected - 子クラスからはつかえる。継承する時つかう
 virtual - オーバーライドする元の関数につける  
 abstract - 実体はない、インターフェイス的にベースクラスに定義するものっぽい  
 
+##### List_enum  
 
+###### Exam 
+    public class enumtest : MonoBehaviour
+      {
+          protected enum fru
+       {
+           apple,
+           orange,
+           banana
+        };
 
+    [SerializeField]
+    protected fru _fru = new fru();
+
+    // Update is called once per frame
+    void update()
+    {
+        switch (_fru)
+        {
+            case fru.apple:
+                Debug.Log("apple");
+                break;
+            case fru.orange:
+                Debug.Log("Orange");
+                break;
+            case fru.banana:
+                Debug.Log("banana");
+                break;
+            default:
+                Debug.Log("Non");
+                break;
+        }
+    }
+      }
