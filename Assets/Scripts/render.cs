@@ -60,11 +60,11 @@ public class render : Main
         //apply materials 
         _matInstence.SetColor("_EmissionColor", _color * _audioBandMaterials * _emissionMultiply);
         _matInstence.EnableKeyword("_EMISSION");
+        //これ書かないとBuild時に初期設定にリセットされてしまう。理由はけっこう複雑
 
         if (_generationCount != 0)
         {
 
-            /// <summary>
             int count = 0;
             for (int i = 0; i < _initiatorPointAmount; i++)
             {

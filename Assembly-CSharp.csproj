@@ -67,6 +67,8 @@
     <Compile Include="Assets\Scripts\Main.cs" />
     <Compile Include="Assets\Scripts\render.cs" />
     <Compile Include="Assets\Scripts\RoCam.cs" />
+    <Compile Include="Assets\Test\enumtest.cs" />
+    <Compile Include="Assets\Test\Stracttest.cs" />
     <None Include="Assets\Lasp-master\Plugin\PortAudio\hostapi\wdmks\readme.txt" />
     <None Include="Assets\Lasp-master\Plugin\PortAudio\hostapi\asio\ASIO-README.txt" />
     <None Include="Assets\Lasp-master\LICENSE.txt" />
